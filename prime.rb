@@ -9,17 +9,8 @@ def prime?(num)
 
   else
     i = 3
-
-    while i <= num/3
-      num.detect do|i|
-        if num % i == 0
-          return false
-        else
-          return true
-          i +=2
-        end
-      end
-    end
-
+    divisors = (1..num/2).step(2)
+    divisors.detect do |i|
+      return false if i % divisors = 0
   end
 end
