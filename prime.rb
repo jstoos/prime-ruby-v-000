@@ -2,7 +2,7 @@ def prime?(num)
 
   if num.even?
     false
-  elsif num < 0 
+  elsif num < 0
     false
 
   else
