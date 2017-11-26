@@ -8,11 +8,10 @@ def prime?(num)
     return true
 
   elsif
-    divisors = (3..(num-1)/2).step(2).to_a
-    divisors.detect do |i|
-      num % i == 0
-      return false
-    end
+      divisors = (3..(num-1)/2).step(2).to_a
+      divisors.any? do |i|
+        num % i == 0
+      end
 
   end
 
