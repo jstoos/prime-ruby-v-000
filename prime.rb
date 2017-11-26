@@ -9,10 +9,9 @@ def prime?(num)
 
   elsif
       divisors = (3..(num-1)/2).step(2).to_a
-      divisors.any? do |i|
+      divisors.none? do |i|
         num % i == 0
       end
-
   end
 
 end
