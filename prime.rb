@@ -12,5 +12,6 @@ def prime?(num)
     divisors = (1..num/2).step(2)
     divisors.detect do |i|
       return false if i % divisors = 0
+    end
   end
 end
