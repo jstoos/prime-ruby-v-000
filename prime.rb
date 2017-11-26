@@ -12,12 +12,9 @@ def prime?(num)
     divisors.detect do |i|
       if num % i == 0
         return false
+      else return true
       end
     end
-  end
-
-  return != false
-    return true
   end
 
 end
