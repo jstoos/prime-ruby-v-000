@@ -4,8 +4,7 @@ def prime?(num)
     return false
   elsif num <= 1
     return false
-  elsif num == 3
-    return true
+
 
   elsif
       divisors = (3..(num-1)/2).step(2).to_a
