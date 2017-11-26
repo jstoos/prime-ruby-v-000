@@ -9,7 +9,7 @@ def prime?(num)
 
   else
     i = 3
-    divisors = (1..num/2).step(2)
+    divisors = (1..(num-1)/2).step(2)
     divisors.detect do |i|
       return false if i % divisors = 0
     end
