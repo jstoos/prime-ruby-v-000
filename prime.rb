@@ -8,8 +8,7 @@ def prime?(num)
     return true
 
   else
-    i = 3
-    divisors = (1..(num-1)/2).step(2)
+    divisors = (3..(num-1)/2).step(2)
     divisors.detect do |i|
       return false if num % i = 0
     end
