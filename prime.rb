@@ -19,5 +19,5 @@ def prime?(num)
   return != false
     return true
   end
-  
+
 end
