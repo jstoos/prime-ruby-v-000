@@ -9,9 +9,9 @@ def prime?(num)
 
     while i <= num/3
       num.detect do|i|
-        if num % i == 0 
+        if num % i == 0
           false
-        else 
+        else
           true
           i +=2
         end
