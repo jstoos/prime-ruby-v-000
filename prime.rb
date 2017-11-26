@@ -13,7 +13,7 @@ def prime?(num)
       if num % i == 0
         return false
       end
-      if return == "nil"
+      if return != false
         return true
       end
     end
