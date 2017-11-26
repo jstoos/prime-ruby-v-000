@@ -6,7 +6,7 @@ def prime?(num)
     return false
 
   else
-    i = 3
+    i = 1
 
     while i <= num/3
       num.detect do|i|
