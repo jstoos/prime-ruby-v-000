@@ -10,9 +10,11 @@ def prime?(num)
   elsif
     divisors = (3..(num-1)/2).step(2).to_a
     divisors.detect do |i|
-      return false if num % i == 0
+      if num % i == 0
+        else return true
+      end
     end
+
   else
-    return true
   end
 end
