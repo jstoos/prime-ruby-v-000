@@ -5,7 +5,6 @@ def prime?(num)
   elsif num <= 1
     return false
 
-
   elsif
       divisors = (3..(num-1)/2).step(2).to_a
       divisors.none? do |i|
