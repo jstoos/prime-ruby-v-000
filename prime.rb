@@ -13,11 +13,10 @@ def prime?(num)
       if num % i == 0
         return false
       end
-      if return != false
-        return true
-      end
     end
-
+    if return != false
+      return true
+    end
   else
   end
 end
