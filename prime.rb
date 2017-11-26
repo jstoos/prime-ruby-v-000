@@ -8,8 +8,8 @@ def prime?(num)
     i = 3
 
     while i <= num/3
-      num.detect do
-        if num % |i| == 0 return false
+      num.detect do|i|
+        if num % i == 0 return false
           else return true
           i +=2
         end
