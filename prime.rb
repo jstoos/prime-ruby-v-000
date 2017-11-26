@@ -1,9 +1,9 @@
 def prime?(num)
 
   if num.even?
-    false
+    return false
   elsif num < 0
-    false
+    return false
 
   else
     i = 3
@@ -11,9 +11,9 @@ def prime?(num)
     while i <= num/3
       num.detect do|i|
         if num % i == 0
-          false
+          return false
         else
-          true
+          return true
           i +=2
         end
       end
