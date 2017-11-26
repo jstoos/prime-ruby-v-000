@@ -13,6 +13,9 @@ def prime?(num)
       if num % i == 0
         return false
       end
+      if return = nil 
+        return true
+      end
     end
 
   else
